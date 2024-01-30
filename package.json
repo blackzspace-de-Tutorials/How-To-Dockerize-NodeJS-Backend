@@ -1,0 +1,17 @@
+{
+    "name": "nodejs-server-dockered",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+      "docker-build": "sudo docker build -t dockerusername/project-name:version . && sudo docker tag dockerusername/project-name:version dockerusername/project-name && sudo docker push dockerusername/project-name:version"
+      
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    }
+  }
